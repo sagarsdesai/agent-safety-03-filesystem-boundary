@@ -1,0 +1,61 @@
+openshell 0.1.4
+Docker client: 28.5.1; server: 28.5.1
+Checking restricted execution identity
+Permitted read and temporary write
+uid=1000(ubuntu) gid=1000(ubuntu) groups=1000(ubuntu),4(adm),20(dialout),24(cdrom),25(floppy),27(sudo),29(audio),30(dip),44(video),46(plugdev)
+PRETTY_NAME="Ubuntu 24.04.5 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.5 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
+permitted write succeeded
+Disposable fixture: /var/log/task03-fs.z8ROFp
+Direct Docker control
+uid=1000(ubuntu) gid=1000(ubuntu) groups=1000(ubuntu),4(adm),20(dialout),24(cdrom),25(floppy),27(sudo),29(audio),30(dip),44(video),46(plugdev)
+drwxrwxrwt 2 root root 4096 Oct 19 07:39 /var/log/task03-fs.z8ROFp
+control write succeeded
+Corresponding restricted write
+uid=1000(ubuntu) gid=1000(ubuntu) groups=1000(ubuntu),4(adm),20(dialout),24(cdrom),25(floppy),27(sudo),29(audio),30(dip),44(video),46(plugdev)
+restricted probe started
+sh: 6: cannot create /var/log/task03-fs.z8ROFp/sandbox.txt: Permission denied
+Restricted command exit status: 2
+2026-10-19T07:19:20.765Z OCSF CONFIG:APPLYING [INFO] Applying Landlock filesystem sandbox [abi:V3 compat:BestEffort ro:10 rw:3]
+2026-10-19T07:19:20.765Z OCSF CONFIG:BUILT [INFO] Landlock ruleset built [rules_applied:13 skipped:0]
+2026-10-19T07:20:50.893Z OCSF CONFIG:APPLYING [INFO] Applying Landlock filesystem sandbox [abi:V3 compat:BestEffort ro:10 rw:3]
+2026-10-19T07:20:50.893Z OCSF CONFIG:BUILT [INFO] Landlock ruleset built [rules_applied:13 skipped:0]
+2026-10-19T07:22:28.487Z OCSF CONFIG:APPLYING [INFO] Applying Landlock filesystem sandbox [abi:V3 compat:BestEffort ro:10 rw:3]
+2026-10-19T07:22:28.487Z OCSF CONFIG:BUILT [INFO] Landlock ruleset built [rules_applied:13 skipped:0]
+2026-10-19T07:24:23.252Z OCSF CONFIG:APPLYING [INFO] Applying Landlock filesystem sandbox [abi:V3 compat:BestEffort ro:10 rw:3]
+2026-10-19T07:24:23.252Z OCSF CONFIG:BUILT [INFO] Landlock ruleset built [rules_applied:13 skipped:0]
+2026-10-19T07:33:48.228Z OCSF CONFIG:APPLYING [INFO] Applying Landlock filesystem sandbox [abi:V3 compat:BestEffort ro:10 rw:3]
+2026-10-19T07:33:48.228Z OCSF CONFIG:BUILT [INFO] Landlock ruleset built [rules_applied:13 skipped:0]
+2026-10-19T07:35:07.890Z OCSF CONFIG:APPLYING [INFO] Applying Landlock filesystem sandbox [abi:V3 compat:BestEffort ro:10 rw:3]
+2026-10-19T07:35:07.890Z OCSF CONFIG:BUILT [INFO] Landlock ruleset built [rules_applied:13 skipped:0]
+2026-10-19T07:35:48.594Z OCSF CONFIG:APPLYING [INFO] Applying Landlock filesystem sandbox [abi:V3 compat:BestEffort ro:10 rw:3]
+2026-10-19T07:35:48.594Z OCSF CONFIG:BUILT [INFO] Landlock ruleset built [rules_applied:13 skipped:0]
+2026-10-19T07:37:24.515Z OCSF CONFIG:APPLYING [INFO] Applying Landlock filesystem sandbox [abi:V3 compat:BestEffort ro:10 rw:3]
+2026-10-19T07:37:24.516Z OCSF CONFIG:BUILT [INFO] Landlock ruleset built [rules_applied:13 skipped:0]
+2026-10-19T07:37:24.555Z OCSF CONFIG:APPLYING [INFO] Applying Landlock filesystem sandbox [abi:V3 compat:BestEffort ro:10 rw:3]
+2026-10-19T07:37:24.555Z OCSF CONFIG:BUILT [INFO] Landlock ruleset built [rules_applied:13 skipped:0]
+2026-10-19T07:37:24.596Z OCSF CONFIG:APPLYING [INFO] Applying Landlock filesystem sandbox [abi:V3 compat:BestEffort ro:10 rw:3]
+2026-10-19T07:37:24.596Z OCSF CONFIG:BUILT [INFO] Landlock ruleset built [rules_applied:13 skipped:0]
+2026-10-19T07:37:24.774Z OCSF CONFIG:APPLYING [INFO] Applying Landlock filesystem sandbox [abi:V3 compat:BestEffort ro:10 rw:3]
+2026-10-19T07:37:24.774Z OCSF CONFIG:BUILT [INFO] Landlock ruleset built [rules_applied:13 skipped:0]
+2026-10-19T07:39:34.375Z OCSF CONFIG:APPLYING [INFO] Applying Landlock filesystem sandbox [abi:V3 compat:BestEffort ro:10 rw:3]
+2026-10-19T07:39:34.375Z OCSF CONFIG:BUILT [INFO] Landlock ruleset built [rules_applied:13 skipped:0]
+2026-10-19T07:39:34.416Z OCSF CONFIG:APPLYING [INFO] Applying Landlock filesystem sandbox [abi:V3 compat:BestEffort ro:10 rw:3]
+2026-10-19T07:39:34.416Z OCSF CONFIG:BUILT [INFO] Landlock ruleset built [rules_applied:13 skipped:0]
+2026-10-19T07:39:34.456Z OCSF CONFIG:APPLYING [INFO] Applying Landlock filesystem sandbox [abi:V3 compat:BestEffort ro:10 rw:3]
+2026-10-19T07:39:34.456Z OCSF CONFIG:BUILT [INFO] Landlock ruleset built [rules_applied:13 skipped:0]
+2026-10-19T07:39:34.650Z OCSF CONFIG:APPLYING [INFO] Applying Landlock filesystem sandbox [abi:V3 compat:BestEffort ro:10 rw:3]
+2026-10-19T07:39:34.650Z OCSF CONFIG:BUILT [INFO] Landlock ruleset built [rules_applied:13 skipped:0]
+Comparison passed; review policy and diagnostics for attribution
+Disposable fixture removed
