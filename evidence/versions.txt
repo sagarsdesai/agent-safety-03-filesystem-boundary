@@ -1,0 +1,2 @@
+openshell 0.1.4
+Docker client: 28.5.1; server: 28.5.1
